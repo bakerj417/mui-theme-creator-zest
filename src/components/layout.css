@@ -16,3 +16,107 @@ code {
   padding: 2px 4px;
   color: #1f1f1f;
 }
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: normal;
+  src: url("src/fonts/proxima-roman/ProximaNova-Reg-webfont.eot"); /* IE9 Compat Modes */
+  src: url("src/fonts/proxima-roman/ProximaNova-Reg-webfont.eot?#iefix")
+          format("embedded-opentype"),
+      /* IE6-IE8 */ url("src/fonts/proxima-roman/ProximaNova-Reg-webfont.woff")
+          format("woff"),
+      /* Modern Browsers */
+          url("src/fonts/proxima-roman/ProximaNova-Reg-webfont.ttf")
+          format("truetype"),
+      /* Safari, Android, iOS */
+          url("src/fonts/proxima-roman/ProximaNova-Reg-webfont.svg#ProximaNovaRgRegular")
+          format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: italic;
+  font-weight: normal;
+  src: url("src/fonts/proxima-roman/ProximaNova-RegIt-webfont.eot"); /* IE9 Compat Modes */
+  src: url("src/fonts/proxima-roman/ProximaNova-RegIt-webfont.eot?#iefix")
+          format("embedded-opentype"),
+      /* IE6-IE8 */ url("src/fonts/proxima-roman/ProximaNova-RegIt-webfont.woff")
+          format("woff"),
+      /* Modern Browsers */
+          url("src/fonts/proxima-roman/ProximaNova-RegIt-webfont.ttf")
+          format("truetype"),
+      /* Safari, Android, iOS */
+          url("src/fonts/proxima-roman/ProximaNova-RegIt-webfont.svg#ProximaNovaRgRegularIt")
+          format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  src: url("src/fonts/proxima-roman/ProximaNova-Sbold-webfont.eot"); /* IE9 Compat Modes */
+  src: url("src/fonts/proxima-roman/ProximaNova-Sbold-webfont.eot?#iefix")
+          format("embedded-opentype"),
+      /* IE6-IE8 */ url("src/fonts/proxima-roman/ProximaNova-Sbold-webfont.woff")
+          format("woff"),
+      /* Modern Browsers */
+          url("src/fonts/proxima-roman/ProximaNova-Sbold-webfont.ttf")
+          format("truetype"),
+      /* Safari, Android, iOS */
+          url("src/fonts/proxima-roman/ProximaNova-Sbold-webfont.svg#ProximaNovaLtSemibold")
+          format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: italic;
+  font-weight: 600;
+  src: url("src/fonts/proxima-roman/ProximaNova-SboldIt-webfont.eot"); /* IE9 Compat Modes */
+  src: url("src/fonts/proxima-roman/ProximaNova-SboldIt-webfont.eot?#iefix")
+          format("embedded-opentype"),
+      /* IE6-IE8 */
+          url("src/fonts/proxima-roman/ProximaNova-SboldIt-webfont.woff")
+          format("woff"),
+      /* Modern Browsers */
+          url("src/fonts/proxima-roman/ProximaNova-SboldIt-webfont.ttf")
+          format("truetype"),
+      /* Safari, Android, iOS */
+          url("src/fonts/proxima-roman/ProximaNova-SboldIt-webfont.svg#ProximaNovaLtSemiboldIt")
+          format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  src: url("src/fonts/proxima-roman/ProximaNova-Bold-webfont.eot"); /* IE9 Compat Modes */
+  src: url("src/fonts/proxima-roman/ProximaNova-Bold-webfont.eot?#iefix")
+          format("embedded-opentype"),
+      /* IE6-IE8 */ url("src/fonts/proxima-roman/ProximaNova-Bold-webfont.woff")
+          format("woff"),
+      /* Modern Browsers */
+          url("src/fonts/proxima-roman/ProximaNova-Bold-webfont.ttf")
+          format("truetype"),
+      /* Safari, Android, iOS */
+          url("src/fonts/proxima-roman/ProximaNova-Bold-webfont.svg#ProximaNovaRgBold")
+          format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: italic;
+  font-weight: 700;
+  src: url("src/fonts/proxima-roman/ProximaNova-BoldIt-webfont.eot"); /* IE9 Compat Modes */
+  src: url("src/fonts/proxima-roman/ProximaNova-BoldIt-webfont.eot?#iefix")
+          format("embedded-opentype"),
+      /* IE6-IE8 */
+          url("src/fonts/proxima-roman/ProximaNova-BoldIt-webfont.woff")
+          format("woff"),
+      /* Modern Browsers */
+          url("src/fonts/proxima-roman/ProximaNova-BoldIt-webfont.ttf")
+          format("truetype"),
+      /* Safari, Android, iOS */
+          url("src/fonts/proxima-roman/ProximaNova-BoldIt-webfont.svg#ProximaNovaRgBoldIt")
+          format("svg"); /* Legacy iOS */
+}

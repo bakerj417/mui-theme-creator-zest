@@ -167,6 +167,86 @@ const defaultThemeList: Omit<NewSavedTheme, "lastUpdated">[] = [
     },
     fonts: ["Bangers", "Do Hyeon", "Roboto"],
   },
+  {
+    name: "Zest",
+    themeOptions: {
+      palette: {
+        mode: 'light',
+        primary: {
+          main: 'rgba(41, 130, 0, 1)',
+          dark: 'rgba(29, 92, 0, 1)',
+        },
+      },
+      typography: {
+        fontFamily: 'Proxima Nova',
+        button: {
+          textTransform: 'none',
+          fontWeight: 600,
+          textShadow: 'rgba(0, 0, 0, 0.25) 0px 1px 0px',
+        },
+      },
+      components: {
+        MuiButton: {
+          styleOverrides: {
+            root: {
+              appearance: 'button',
+              alignItems: 'center',
+              border: '0.0625rem solid rgba(0, 0, 0, 0.1)',
+              borderRadius: '0.25rem',
+              padding: '0.25rem 1rem',
+              fontSize: '1rem',
+              lineHeight: '1.5rem',
+              justifyContent: 'center',
+              ':hover': {
+                backgroundColor: 'rgb(29, 92, 0, 1)',
+                boxShadow: 'none',
+              },
+            },
+            sizeSmall: {
+              fontSize: '0.875rem',
+              lineHeight: '1.25rem',
+              padding: '0.125rem 0.5rem',
+              height: '1.5rem',
+            },
+            sizeLarge: {
+              padding: '0.5rem 1.5rem',
+              height: '2.5rem',
+            },
+            text: {
+              border: 'none',
+            },
+            outlined: {
+              margin: 0,
+            },
+          },
+        },
+        MuiAlert: {
+          styleOverrides: {
+            root: {
+              color: 'rgba(59, 66, 56, 1)',
+            },
+            outlinedInfo: {
+              backgroundColor: 'rgba(230, 247, 253, 1)',
+              borderColor: 'rgba(176, 230, 250, 1)',
+            },
+            outlinedSuccess: {
+              backgroundColor: 'rgba(234, 243, 230, 1)',
+              borderColor: 'rgba(189, 216, 176, 1)',
+            },
+            outlinedWarning: {
+              backgroundColor: 'rgba(254, 244, 233, 1)',
+              borderColor: 'rgba(253, 222, 186, 1)',
+            },
+            outlinedError: {
+              backgroundColor: 'rgba(250, 235, 230, 1)',
+              borderColor: 'rgba(240, 193, 176, 1)',
+            },
+          },
+        },
+      },
+    },
+    fonts: ["Proxima Nova"],
+  },
 ]
 
 export default defaultThemeList
