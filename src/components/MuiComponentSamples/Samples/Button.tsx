@@ -101,24 +101,24 @@ export default function ButtonsExample() {
       </Typography>
       <Box sx={groupStyle}>
         <IconButton aria-label="delete" size="small" sx={{
-        backgroundColor: theme.palette.primary.main,
-        color: theme.palette.primary.contrastText,
-        "&:hover": { backgroundColor: theme.palette.primary.dark }
-      }}>
+          backgroundColor: theme.palette.primary.main,
+          color: theme.palette.primary.contrastText,
+          "&:hover": { backgroundColor: theme.palette.primary.dark }
+        }}>
           <DeleteIcon fontSize="inherit" color="inherit" />
         </IconButton>
         <IconButton aria-label="delete" sx={{
-        backgroundColor: theme.palette.primary.main,
-        color: theme.palette.primary.contrastText,
-        "&:hover": { backgroundColor: theme.palette.primary.dark }
-      }}>
+          backgroundColor: theme.palette.primary.main,
+          color: theme.palette.primary.contrastText,
+          "&:hover": { backgroundColor: theme.palette.primary.dark }
+        }}>
           <DeleteIcon fontSize="inherit" />
         </IconButton>
         <IconButton aria-label="delete" size="large" sx={{
-        backgroundColor: theme.palette.primary.main,
-        color: theme.palette.primary.contrastText,
-        "&:hover": { backgroundColor: theme.palette.primary.dark }
-      }}>
+          backgroundColor: theme.palette.primary.main,
+          color: theme.palette.primary.contrastText,
+          "&:hover": { backgroundColor: theme.palette.primary.dark },
+        }}>
           <DeleteIcon fontSize="inherit" />
         </IconButton>
       </Box>
